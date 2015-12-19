@@ -1,0 +1,41 @@
+/*
+|---------------------
+| View-Groups CSS
+|---------------------
+*/
+#view-groups-container{
+	border:1px solid black;
+	border-radius:10px;
+	margin:auto;
+	width: 60%;
+	min-width: 300px;
+}
+.top-bar{
+	height:30px;
+}
+.user-bar{
+	float:right;
+	text-align:right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.back-to-my-groups{
+	float:left;
+	margin-top:5px;
+	margin-left: 10px;
+}
+.user-bar, .back-to-my-groups{
+	display:inline-block;
+}
+#username-text-dec{
+	font-weight:bold;
+}
+.list{
+	border:1px solid black;
+	border-radius: 10px;
+	margin:auto;
+	width: 80%;
+	min-width:280px;
+	margin-bottom: 30px;
+	overflow:auto;
+	max-height: 450px;

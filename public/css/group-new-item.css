@@ -1,0 +1,63 @@
+/*
+|---------------------
+| Group-New-Item CSS
+|---------------------
+*/
+.title h3{
+	font-size: 30px;
+}
+.form-container{
+	margin:auto;
+	width:90%;
+}
+.name, .specifications, .link, .rank{
+	text-align:right;
+	margin-right: 15%;
+	margin-left:5%;
+	margin-bottom:5px;
+}
+.specifications label{
+	float:left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+textarea{
+	resize:none;
+	height: 200px;
+}
+textarea, .name input, .link input, .rank select{
+	width: 250px;
+}
+.submit input{
+	width:100px;
+}
+
+/*
+|---------------------
+| Login CSS
+|---------------------
+*/
+/* #login-container{
+	border:1px solid black;
+	border-radius: 10px;
+	margin:auto;
+	width:40%;
+	min-width:295px;
+}
+.email, .password{
+	text-align:right;
+	margin-right: 15%;
+	margin-left:5%;
+	margin-bottom:5px;
+}
+
+.submit, .button-link{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.submit input, .button-link form button{
+	width: 100px;
+} 
+.form-container{
+	margin-bottom:10px;
+} */

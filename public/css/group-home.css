@@ -1,0 +1,81 @@
+/*
+|--------------------------
+| Group-Home CSS
+|--------------------------
+*/
+.my-wish-list .title h3{
+	font-size:30px;
+}
+.my-items{
+	border: 1px solid black;
+	width: 90%;
+	margin:auto;
+	height: 400px;
+	overflow:auto;
+}
+.new-item{
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.new-item form button{
+	width: 90%;
+	height: 40px;
+}
+.new-item form button span{
+	font-size: 20px;
+}
+/*-------------------*/
+.my-item{
+	border: 1px solid black;
+	width: 90%;
+	margin:auto;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.my-items .info{
+	display: inline-block;
+	float:left;
+	width:80%;
+}
+.my-items .reserved{
+	display: inline-block;
+	float:right;
+}
+.cleared-div{
+	clear:both;
+}
+/*-------------------*/
+ .info .rank, .info .details{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+ .info .rank{
+	width: 25%;
+	height: 75px;
+	float: left;
+	margin-left: 10px;
+
+	border: 1px solid black;
+	border-radius: 20px;
+}
+ .info .details{
+	width: 210px;
+	float: right;
+	text-align: left;
+}
+ .rank p{
+	margin:0;
+	margin-top: 8px;
+	font-weight: bold;
+}
+.rank-int{
+	font-size: 30px;
+}
+/*-------------------*/
+.details .name{
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+

@@ -1,0 +1,24 @@
+/*
+|---------------------
+| Create-Group CSS
+|---------------------
+*/
+#create-group-container{
+	border:1px solid black;
+	border-radius: 10px;
+	margin:auto;
+	width:60%;
+	min-width:100px;
+}
+.name, .description, .password, .submit{
+	text-align:right;
+	margin-right: 15%;
+	margin-left:5%;
+	margin-bottom:5px;
+}
+.submit input{
+	width:100px;
+}
+.form-container{
+	margin-bottom:10px;
+}
